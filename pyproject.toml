@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meshfix_rhino3d"
+version = "1.0"
+dependencies = []
+
+[tool.setuptools]
+packages = ["meshfix_rhino3d"]
+
+[project.scripts]
+meshfix-rhino3d = "meshfix_rhino3d.meshfix_rhino3d:cli_entry_point"
